@@ -1,0 +1,45 @@
+{
+"name":"pixelsimthmix",
+  "author": {
+  },
+  "bugs": {
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "~0.9.0",
+    "concat-stream": "~1.5.1",
+    "get-pixels": "~3.3.0",
+    "mime-types": "~2.1.7",
+    "ndarray": "~1.0.15",
+    "ndarray-fill": "~1.0.1",
+    "obj-extend": "~0.1.0",
+    "save-pixels": "~2.3.0",
+    "vinyl-file": "~1.3.0"
+  },
+  "deprecated": false,
+  "description": "Node based engine for spritesmith",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
+  },
+  "keywords": [
+    "spritesmith",
+    "image",
+    "spritesmith-engine"
+  ],
+  "licenses": "Unlicense",
+  "main": "lib/engine",
+  "name": "pixelsmithmix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liupishui/pixelsmithmix.git"
+  },
+  "scripts": {
+  },
+  "version": "0.0.1"
+}
